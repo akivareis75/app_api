@@ -12,6 +12,7 @@ def clients():
     return jsonify(clients)
 
 
+## Data hard code 
 
 client = { "name":"Jacobs","sur_name":"Feldman"}
 
