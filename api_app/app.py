@@ -17,3 +17,6 @@ def clients():
 client = { "name":"Jacobs","sur_name":"Feldman"}
 
 clients =  [ { "name": "Dan","surName": "Feldman"},{"name": "Joseph","surName": "Feldman"},{ "name": "Mark","surName": "Feldman" } ]
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0',port='8075')
